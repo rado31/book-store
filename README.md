@@ -9,3 +9,17 @@
 
 If you have a question, call me -_-
 
+## API
+
+### Get all books
+
+```http
+GET http://localhost/books?page=1&limit=10
+```
+
+### Get one book
+
+```http
+GET http://localhost/book/1
+```
+
