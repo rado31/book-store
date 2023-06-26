@@ -1,5 +1,6 @@
 INSERT INTO users (first_name, last_name, email, "image", password)
 VALUES
+    ('rado', 'rado', 'rado', '', 'rado'),
     ('ata', 'atayev', 'atayev@gmail.com', '', '123'),
     ('mariya', 'klimenka', 'mariya@gmail.com', '', '123');
 
