@@ -23,3 +23,42 @@ GET http://localhost/books?page=1&limit=10
 GET http://localhost/book/1
 ```
 
+### Sign up
+
+```http
+POST http://localhost/auth/sign_up
+```
+
+#### Request body
+
+```json
+{
+  "first_name": "string",
+  "last_name": "string",
+  "email": "string",
+  "password": "string"
+}
+```
+
+### Sign in
+
+```http
+POST http://localhost/auth/sign_in
+```
+
+#### Request body
+
+```json
+{
+  "email": "string",
+  "password": "string"
+}
+```
+
+### Refresh token
+
+```http
+GET http://localhost/auth/refresh
+```
+
+#### Request header: ```Authorization: Bearer asd.asd.asd```
